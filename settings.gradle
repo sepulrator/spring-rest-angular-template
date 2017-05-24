@@ -1,0 +1,6 @@
+include 'data-store'
+include 'web-app'
+include 'core-module'
+include 'service-module'
+include 'frontend'
+

@@ -1,0 +1,8 @@
+//rootProject.name = 'service-module'
+
+
+include ':core-module'
+project(':core-module').projectDir = new File(settingsDir, '../core-module')
+
+include ':data-store'
+project(':data-store').projectDir = new File(settingsDir, '../data-store')
